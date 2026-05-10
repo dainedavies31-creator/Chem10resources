@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./styling.css">
+<script src ="./scripting.js" defer></script>
+</head>
+<body>
+
+<div class="chhead">
+<h3>Lesson 4</h3>
+<h1>Gas Laws and<br>Mole Concept</h1>
+</div>
+<div class ="contents">
+
+
+<div class="impbox">
+<h2>Kinetic Molecular theory</h2>
+<div class="info">Proposed by James Clerk Maxwell and Ludwig Boltzmann to explain the general properties of gases.</div>
+<ul>The postulates of this theory are:
+  <li>Gases are made up of minute particles (atoms/molecules).</li>
+  <li>The attractive force between gaseous molecules is very low.</li>
+  <li>As the molecules are so far apart, the volume of gaseous molecules is negligible in comparison with the total volume of the gas.</li>
+  <li>The volume can be reduced by reducing the distance between the gaseous molecules.</li>
+  <li>Gaseous molecules are in constant motion in all directions. As a result, the molecules collide with one another and with the walls of the container. The force produced due to the collision of molecules with the walls of the container results in gaseous pressure.</li>
+  <li>Collisions of gaseous molecules are elastic in nature. That means, the kinetic energy of the molecules before and after the collision will be same.</li>
+  <li>The average kinetic energy of the gaseous molecules is directly proportional to its temperature.</li>
+</div>
+
+
+
+<div class="impbox">
+<h2>General properties of gases</h2>
+<div class="impbox">
+<h3>Volume</h3>
+<div class="info">The space occupied by a substance is taken as it's volume.</div>
+
+<div class="qnans">
+<div class="qn">If a liquid filled in a bottle of volume 1L is transferred to a bottle of volume 2 L, what will be its volume?</div>
+<div class="ans">Ans: 1L</div>
+</div>
+
+<div class="qnans">
+<div class="qn">If oxygen gas filled in a bottle of volume 1L is transferred to a bottle of volume 2 L, what will be its volume?</div>
+<div class="ans">Ans: 2L</div>
+</div>
+
+<div class="qnans">
+<div class="qn">What if a gas of volume 2 L is transferred to a bottle of 10 L volume?</div>
+<div class="ans">Ans: 10L</div>
+</div>
+
+<div class="def">The volume of a gas is the volume in which it is occupied.</div>
+<div class="info">1000cm&sup3; = 1000mL = 1L</div>
+</div>
+<div class="impbox">
+<h3>Pressure</h3>
+<div class="info">We have seen that gaseous molecules are in constant random motion. As a result, they collide with one another and with the walls of the container. Due to these collisions, a force is experienced on the surface. Gaseous pressure is the force experienced per unit surface area.</div>
+<div class="eqn">Pressure = Force/Surface area<br>P = F/A</div>
+<div class="info">Generally, pressure is expressed in terms of atmospheric pressure (atm). You have learnt about atmospheric pressure in lower classes. The SI unit of pressure is Pascal (Pa). (Pa = N/m&sup2 or Newton per square meter).</div>
+<div class="info">1 atm = 1.01325 x10<sup>5</sup> Pa.</div>
+</div>
+<div class="impbox">
+<h3>Temperature</h3>
+<div class="qnans">
+<div class="qn">Which is the energy acquired by molecules due to its movement? (Kinetic energy / potential energy)</div>
+<div class="ans">Ans: Kinetic energy</div>
+</div>
+<div class="qnans">
+<div class="qn">What happens to the kinetic energy of the molecules if a gas is heated? (Increases / decreases)</div>
+<div class="ans">Ans: Increases</div>
+</div>
+<div class="info">When gases are heated, the energy of molecules increases and hence temperature also increases.</div>
+<div class="impbox">The SI unit of temperature is Kelvin(K). To convert the common unit <sup>o</sup>C to Kelvin, add 273 to it.</div>
+</div>
+</div>
+    
+
+
+<div class="impbox">
+<h2>Gas Laws</h2>
+
+<div class="impbox">
+<h3>a) Boyle's law - pressure and volume of a gas.</h3>
+<div class="impbox">
+
+<h4>Interactive Demo – Boyle's Law</h4>
+
+<div class="demo-box">
+<label>Pressure (P): 
+<input type="range" id="pressure" min="1" max="10" value="5">
+</label>
+
+<div class="result">
+Volume (V): <span id="volumeValue">20</span>
+</div>
+
+<div class="balloon" id="balloon"></div>
+</div>
+
+</div>
+Take a large syringe and remove its piston. Put into the syringe a small inflated balloon with its open end tied up. Now, refix the piston in its position. Close the other end of the syringe with your finger. Record the changes happening to the balloon when the piston is pushed in and pulled back.
+<div class="tbl col2">
+<div class="tblhead">Activity</div><div class="tblhead">Observation</div>
+<div class="tblbody">When the piston is pushed in</div><div class="tblbody"><div class="ans">Ans: Baloon shrinks</div></div>
+<div class="tblbody">When the piston is pulled back</div><div class="tblbody"><div class="ans">Ans: Baloon expands</div></div>
+</div>
+<div class="def">At constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure.<br>
+That is, V α 1P (temperature, mass constant)<br> V = a constant × 1P<br>
+PV = k (k = a constant)</div>
+<ul>
+Practical examples of Boyle's law:
+
+<li>
+When a syringe piston is pushed inward, the pressure increases and the volume of air inside decreases.
+</li>
+
+<li>
+A scuba diver notices air bubbles becoming larger as they rise to the surface because water pressure decreases.
+</li>
+
+<li>
+Air inside a bicycle pump gets compressed when the handle is pushed down, reducing the volume of the gas.
+</li>
+
+<li>
+Marshmallows expand inside a vacuum chamber because the surrounding pressure decreases.
+</li>
+
+<li>
+When we breathe in, the lungs expand, decreasing pressure inside them and allowing air to enter.
+</li>
+
+</ul>
+</div>
+
+<div class ="impbox">
+<h3>b) Charle's law - temperature and volume of a gas.</h3>
+Let us do an experiment (Fig. 4.9). Make a small hole on the lid of a glass bottle and fix an empty refill into it. Add a small drop of ink into the refill, then blow gently to move the ink to the centre of the refill. Cover the bottle with your palms.
+<div class ="qnans">
+<div class ="qn">What do you observe?</div>
+<div class ="ans">Ans: The ink drop rises.</div>
+</div><div class ="qnans">
+<div class ="qn">Upto which point of the arrangement does air occupy?</div>
+<div class ="ans">Ans: It is from the bottom of the bottle to that part of the refill that contains the ink.</div>
+</div><div class ="qnans">
+<div class ="qn">What change occurs to the temperature of the air inside the bottle when covered the bottle with palms?</div>
+<div class ="ans">Ans: The temperature inside the bottle increases.</div>
+</div><div class ="qnans">
+<div class ="qn">Does the volume of the gas increase or decrease during this period?</div>
+<div class ="ans">Ans: Increase</div>
+</div>
+It is now clear why the ink rises up in the refill.
+<div class ="qnans">
+<div class ="qn">Place the bottle in water and cool it. What do you observe?</div>
+<div class ="ans">Ans: The temperature inside the bottle decreases.</div>
+</div><div class ="qnans">
+<div class ="qn">What happens to the volume of the gas when the bottle is cooled?</div>
+<div class ="ans">Ans: The volume decreases.</div>
+</div>
+<div class="def">
+At constant pressure, the volume of a fixed mass of gas is directly proportional to its temperature.
+<br><br>
+V α T
+<br>
+V = kT
+<br>
+V/T = constant
+</div>
+
+<ul>
+Practical examples of Charles' law:
+
+<li>
+A hot air balloon rises because the heated air inside expands.
+</li>
+
+<li>
+A football kept in the sun expands slightly because the air inside becomes hotter.
+</li>
+
+<li>
+A balloon shrinks when placed in a refrigerator because the temperature decreases.
+</li>
+
+</ul>
+<div class="impbox">
+
+<h4>Interactive Demo – Charles' Law</h4>
+
+<label>Temperature (K):
+<input type="range" id="temp" min="200" max="400" value="300">
+</label>
+
+<div>
+Volume: <span id="tempVolume">30</span>
+</div>
+
+<div class="balloon" id="tempBalloon"></div>
+
+</div>
+</div>
+
+<div class="impbox">
+
+<h3>c) Avogadro's law - volume and number of molecules.</h3>
+
+<div class="info">
+Take balloons of different sizes and fill them with different amounts of air.
+Observe the relation between the amount of gas and the volume occupied.
+</div>
+
+<div class="qnans">
+<div class="qn">
+If more air is filled into a balloon, what happens to its size?
+</div>
+<div class="ans">
+Ans: The balloon expands.
+</div>
+</div>
+
+<div class="qnans">
+<div class="qn">
+What happens to the volume when the number of gas molecules increases?
+</div>
+<div class="ans">
+Ans: The volume increases.
+</div>
+</div>
+
+<div class="def">
+At constant temperature and pressure, the volume of a gas is directly proportional to the number of molecules present in it.
+<br><br>
+V α n
+<br>
+V = kn
+<br>
+V/n = constant
+</div>
+
+<ul>
+Practical examples of Avogadro's law:
+
+<li>
+A balloon becomes larger when more air is blown into it because the number of gas molecules increases.
+</li>
+
+<li>
+An inflated tyre contains more air molecules and occupies a larger volume compared to a deflated tyre.
+</li>
+
+</ul>
+<div class="impbox">
+
+<h4>Interactive Demo – Avogadro's Law</h4>
+
+<label>Number of Moles (n):
+<input type="range" id="moles" min="1" max="20" value="10">
+</label>
+
+<div>
+Volume: <span id="moleVolume">50</span>
+</div>
+
+<div class="balloon" id="moleBalloon"></div>
+
+</div>
+</div>
+<div class="impbox">
+
+<h3>d) Combined Gas Equation</h3>
+
+<div class="info">
+Boyle's law and Charles' law can be combined together to relate pressure, volume, and temperature of a fixed mass of gas.
+</div>
+
+<div class="qnans">
+<div class="qn">
+Which are the three physical quantities related in the combined gas equation?
+</div>
+<div class="ans">
+Ans: Pressure, Volume, and Temperature.
+</div>
+</div>
+
+<div class="qnans">
+<div class="qn">
+What happens to the volume of a gas when temperature increases at constant pressure?
+</div>
+<div class="ans">
+Ans: The volume increases.
+</div>
+</div>
+
+<div class="qnans">
+<div class="qn">
+What happens to the volume of a gas when pressure increases at constant temperature?
+</div>
+<div class="ans">
+Ans: The volume decreases.
+</div>
+</div>
+
+<div class="def">
+For a fixed mass of gas,
+<br><br>
+
+PV/T = constant
+<br><br>
+
+P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> =
+P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub>
+
+</div>
+
+<div class="info">
+Temperature must always be taken in Kelvin (K).
+</div>
+
+<div class="tbl col2">
+
+<div class="tblhead">Quantity</div>
+<div class="tblhead">Symbol</div>
+
+<div class="tblbody">Pressure</div>
+<div class="tblbody">P</div>
+
+<div class="tblbody">Volume</div>
+<div class="tblbody">V</div>
+
+<div class="tblbody">Temperature</div>
+<div class="tblbody">T</div>
+
+</div>
+
+<ul>
+Practical examples of Combined Gas Equation:
+
+<li>
+A gas cylinder kept in sunlight becomes dangerous because both pressure and temperature increase.
+</li>
+
+<li>
+Weather balloons expand as they rise because atmospheric pressure decreases and temperature changes.
+</li>
+
+<li>
+Compressed gas sprays become cold during use due to rapid expansion of gas.
+</li>
+
+</ul>
+
+</div>
+</div>
+
+<div class="impbox">
+
+<h2>Mole Concept</h2>
+
+<div class="def">
+One mole is the amount of substance that contains 
+6.022 × 10<sup>23</sup> particles 
+(Avogadro Number).
+</div>
+
+<div class="info">
+1 mole of atoms = 6.022 × 10<sup>23</sup> atoms <br>
+1 mole of molecules = 6.022 × 10<sup>23</sup> molecules
+</div>
+<div class="impbox">
+
+<h4>Interactive Demo – Mass to Moles</h4>
+
+<label>Select Substance:
+<select id="substanceSelect">
+  <option value="18">H₂O (Water) – 18 g/mol</option>
+  <option value="44">CO₂ – 44 g/mol</option>
+  <option value="32">O₂ – 32 g/mol</option>
+  <option value="28">N₂ – 28 g/mol</option>
+  <option value="58.5">NaCl – 58.5 g/mol</option>
+  <option value="custom">Custom</option>
+</select>
+</label>
+
+<br><br>
+
+<div id="customMolarBox">
+<label>Enter Molar Mass (g/mol):
+<input type="number" id="customMolarMass" placeholder="Enter value">
+</label>
+<br><br>
+</div>
+
+<label>Mass (g):
+<input type="number" id="givenMass" value="36">
+</label>
+
+<br><br>
+
+<div>
+Moles (n) = <span id="moleResult">0</span>
+</div>
+
+</div>
+<div class="impbox">
+
+<h2>Relative Atomic Mass and Mole</h2>
+
+<div class="def">
+Relative atomic mass (A<sub>r</sub>) of an element is the average mass 
+of its atoms compared to 1/12<sup>th</sup> the mass of a carbon-12 atom.
+</div>
+
+<div class="info">
+Carbon-12 is taken as the standard reference.
+<br><br>
+Mass of 1 carbon-12 atom = 12 atomic mass units (u)
+</div>
+
+<div class="impbox">
+
+<h3>Atomic Mass Unit (u)</h3>
+
+<div class="def">
+1 atomic mass unit (1u) = 1/12 of the mass of one carbon-12 atom.
+</div>
+
+</div>
+
+<div class="impbox">
+
+<h3>Relation Between Relative Atomic Mass and Mole</h3>
+
+<div class="info">
+The numerical value of relative atomic mass in grams 
+is equal to the mass of one mole of that element.
+</div>
+
+<div class="def">
+Relative atomic mass (A<sub>r</sub>)  
+= Mass of 1 mole of atoms (in grams)
+</div>
+
+<div class="tbl col3">
+
+<div class="tblhead">Element</div>
+<div class="tblhead">Average atomic mass</div>
+<div class="tblhead">Relative atomic mass</div>
+
+<div class="tblbody">Hydrogen</div>
+<div class="tblbody">1.00794</div>
+<div class="tblbody">1</div>
+
+<div class="tblbody">Oxygen</div>
+<div class="tblbody">15.9994</div>
+<div class="tblbody">16</div>
+
+<div class="tblbody">Sodium</div>
+<div class="tblbody">22.989</div>
+<div class="tblbody">23</div>
+
+<div class="tblbody">Carbon</div>
+<div class="tblbody">12.011</div>
+<div class="tblbody">12</div>
+
+<div class="tblbody">Nitrogen</div>
+<div class="tblbody">14.0067</div>
+<div class="tblbody">14</div>
+
+</div>
+<div class="impbox">
+
+<h2>Why Atomic Mass is a Fraction?</h2>
+
+<div class="info">
+The atomic mass of elements is calculated by considering 
+the average mass of their isotopes based on their natural abundance.
+</div>
+
+
+<div class="impbox">
+
+<h3>Example 1: Neon</h3>
+
+<div class="info">
+The natural abundance of neon isotopes is:
+<br><br>
+<sup>20</sup>Ne → 90.48%  
+<br>
+<sup>21</sup>Ne → 0.27%  
+<br>
+<sup>22</sup>Ne → 9.25%
+</div>
+
+<div class="eqn">
+Average atomic mass = <br>
+[(20 × 90.48) + (21 × 0.27) + (22 × 9.25)] ÷ 100 <br>
+= 20.18 u
+</div>
+
+</div>
+
+
+<div class="impbox">
+
+<h3>Example 2: Chlorine</h3>
+
+<div class="info">
+The natural abundance of chlorine isotopes:
+<br><br>
+Cl-35 → 75%  
+<br>
+Cl-37 → 25%
+</div>
+
+<div class="eqn">
+Average atomic mass = <br>
+[(35 × 75) + (37 × 25)] ÷ 100 <br>
+= 3550 ÷ 100 <br>
+= 35.5 u
+</div>
+
+</div>
+
+<div class="def">
+The atomic mass of most elements is a fraction because 
+it is the weighted average of the masses of all naturally 
+occurring isotopes.
+</div>
+
+</div>
+<div class="tbl col5">
+
+<div class="tblhead">Element</div>
+<div class="tblhead">Relative Atomic Mass</div>
+<div class="tblhead">Gram Atomic Mass</div>
+<div class="tblhead">No of mole atoms</div>
+<div class="tblhead">No of atoms</div>
+
+<div class="tblbody">Copper</div>
+<div class="tblbody">63.5</div>
+<div class="tblbody">63.5g</div>
+<div class="tblbody">1</div>
+<div class="tblbody">6.022×10<sup>23</sup></div>
+
+<div class="tblbody">Iron</div>
+<div class="tblbody">55.8</div>
+<div class="tblbody">55.8g</div>
+<div class="tblbody">1</div>
+<div class="tblbody">6.022×10<sup>23</sup></div>
+
+<div class="tblbody">Zinc</div>
+<div class="tblbody">65.3</div>
+<div class="tblbody">65.3g</div>
+<div class="tblbody">1</div>
+<div class="tblbody">6.022×10<sup>23</sup></div>
+
+<div class="tblbody">Aluminium</div>
+<div class="tblbody">27</div>
+<div class="tblbody">27g</div>
+<div class="tblbody">1</div>
+<div class="tblbody">6.022×10<sup>23</sup></div>
+
+<div class="tblbody">Nitrogen</div>
+<div class="tblbody">14</div>
+<div class="tblbody">14g</div>
+<div class="tblbody">1</div>
+<div class="tblbody">6.022×10<sup>23</sup></div>
+
+</div>
+</div>
+
+</div>
+
+<div class="impbox">
+
+<h2>Molar Mass</h2>
+
+<div class="def">
+Molar mass is the mass of one mole of a substance.
+</div>
+
+<div class="info">
+It is expressed in grams per mole (g mol⁻¹).
+</div>
+
+<div class="eqn">
+Molar Mass = Mass of substance (g) ÷ Number of moles (mol)
+</div>
+
+
+<div class="impbox">
+
+<h3>Relation with Relative Atomic Mass</h3>
+
+<div class="info">
+The numerical value of relative atomic mass 
+is equal to the molar mass in grams.
+</div>
+
+<div class="eqn">
+If A<sub>r</sub> of Oxygen = 16  
+<br>
+Molar mass of Oxygen = 16 g mol⁻¹
+</div>
+
+</div>
+
+
+<div class="impbox aly">
+
+<h3>Molar Mass of Compounds</h3>
+
+<div class="info">
+The molar mass of a compound is the sum of the 
+atomic masses of all atoms present in its formula.
+</div>
+
+<div class="eqn">
+Molar mass of H<sub>2</sub>O  
+<br>
+= (2 × 1) + (1 × 16)  
+<br>
+= 18 g mol⁻¹
+</div>
+
+<div id='molarMassAnimBox'>
+<div class="viewport">
+    <div class="card-row">
+        <div class="card">Mole</div>
+        <div class="card">Atomic Mass</div>
+        <div class="card">Molar Mass</div>
+        <div class="card">Gas Laws</div>
+    </div>
+</div>
+<div class ="controls">
+<button onclick="centerCard(0)">1</button>
+<button onclick="centerCard(1)">2</button>
+<button onclick="centerCard(2)">3</button>
+<button onclick="centerCard(3)">4</button>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</body>
+</html>
